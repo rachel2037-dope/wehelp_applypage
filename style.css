@@ -39,7 +39,7 @@ main{
     border: 1px solid #EEDFD4; 
     border-radius: 12px; 
     padding: 1rem 1.2rem; 
-    box-shadow: (0, 0, 0, 0.5)
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
 }
 .QandA h2 {
     color: #1A1D21;
