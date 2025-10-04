@@ -1,0 +1,54 @@
+body {
+    background-color: #FFFBF7; 
+    line-height: 1.7;
+}
+a {
+    text-decoration: none;
+    color: #e0a269;
+}
+a:hover{ 
+    text-decoration: underline; 
+    filter: brightness(1.08); 
+}
+.highlight{
+    color: #C56A1A;
+}
+
+/* header */
+header h1 {
+    padding: 3vh 1rem 2vh;
+    font-size: clamp(2rem, 5vw, 3rem); 
+    text-align: center;
+    color: #222222;
+}
+
+/* main */
+main{
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 1rem;
+}
+.QandA {
+    margin: 1rem 0; 
+    background: #FFF7F0; 
+    border: 1px solid #EEDFD4; 
+    border-radius: 12px; 
+    padding: 1rem 1.2rem; 
+    box-shadow: (0, 0, 0, 0.5)
+}
+.QandA h2 {
+    color: #1A1D21;
+}
+.QandA p { 
+    color: #1A1D21;
+}
+
+/* footer */
+footer {
+    text-align: center; 
+    padding: 2rem 1rem; 
+    background-color: #5A3A2A;
+}
+footer p {
+    color: #FFF;
+}
