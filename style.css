@@ -1,3 +1,4 @@
+/* 網頁整體設定 */
 body {
     background-color: #FFFBF7; 
     line-height: 1.7;
@@ -6,12 +7,15 @@ a {
     text-decoration: none;
     color: #e0a269;
 }
+/* 滑鼠移到link上方的效果 */
 a:hover{ 
     text-decoration: underline; 
     filter: brightness(1.08); 
 }
+/* 強調重點文字 */
 .highlight{
     color: #C56A1A;
+    font-weight: bold;
 }
 
 /* header */
@@ -24,9 +28,10 @@ header h1 {
 
 /* main */
 main{
-    max-width: 1000px; 
-    margin: 0 auto; 
-    padding: 1rem;
+    max-width: 950px; 
+    margin-inline: auto;
+    padding-inline: 1rem;
+    padding-block: 0;
 }
 .QandA {
     margin: 1rem 0; 
